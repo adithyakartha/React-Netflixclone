@@ -1,5 +1,4 @@
 .banner{
-    background-image: url("https://imgr.search.brave.com/8xPCIo2vRQbFcrk2eJ0rUs3diiJCIEUUBAub9pXIdbI/fit/1200/1081/ce/1/aHR0cHM6Ly9jZG5h/LmFydHN0YXRpb24u/Y29tL3AvYXNzZXRz/L2ltYWdlcy9pbWFn/ZXMvMDE0LzAzMy8x/MjIvbGFyZ2Uvc2Vh/bi12by1zZWFudm8t/Y3Vyc2UtY2FzdGxl/LWZvcmVzdC1jbGVh/cmluZy5qcGc_MTU0/MjE1OTUxNw");
     background-size: cover;
     height: 448px;
     color: white;
@@ -10,6 +9,7 @@
     padding-top: 140px;
     height: 190px;
     padding-left: 15px;
+    max-height: 330px;
 }
 
 .title{
@@ -45,6 +45,7 @@
         font-size: 1rem;
         height: 80px;
         max-width: 360px;
+        max-height: 130px;
 }
 
 
