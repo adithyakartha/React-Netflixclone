@@ -3,7 +3,6 @@ import './App.css';
 import Banner from './Components/Banner/Banner';
 import NavBar from './Components/NavBar/NavBar.js';
 import RowPost from './Components/RowPost/RowPost';
-import axios from 'axios';
 import { useState } from 'react';
 import { action, documentaries, romance, trending } from './urls';
 import { orginals } from './urls';
