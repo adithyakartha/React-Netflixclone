@@ -5,7 +5,7 @@ import NavBar from './Components/NavBar/NavBar.js';
 import RowPost from './Components/RowPost/RowPost';
 import axios from 'axios';
 import { useState } from 'react';
-import { action } from './urls';
+import { action, documentaries, romance, trending } from './urls';
 import { orginals } from './urls';
 function App() {
   const [state,setState]=useState([])
@@ -15,6 +15,9 @@ function App() {
       <Banner/>
       <RowPost title="Netflix Orginals" url={orginals}    />
       <RowPost  title="Action" isSmall url={action} />
+      <RowPost  title="Romance" isSmall url={romance} />
+      <RowPost  title="Romance" isSmall url={documentaries} />
+      <RowPost  title="Romance" isSmall url={trending} />
     </div>
   );
 }
